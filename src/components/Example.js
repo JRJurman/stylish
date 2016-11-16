@@ -5,7 +5,6 @@ import { kimbieDark } from 'react-syntax-highlighter/dist/styles';
 
 class Example extends Component {
   render() {
-
     return (
       <div style={this.props.style}>
         <SyntaxHighlighter language={this.props.lang} style={kimbieDark}>
